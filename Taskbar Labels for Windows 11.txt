@@ -1,0 +1,12 @@
+{
+  "taskbarItemWidth": 0,
+  "minimumTaskbarItemWidth": 0,
+  "maximumTaskbarItemWidth": 200,
+  "runningIndicatorStyle": "fullWidth",
+  "progressIndicatorStyle": "sameAsRunningIndicatorStyle",
+  "fontSize": 12,
+  "leftAndRightPaddingSize": 12,
+  "spaceBetweenIconAndLabel": 8,
+  "labelForSingleItem": "%name%",
+  "labelForMultipleItems": "[%amount%] %name%"
+}
