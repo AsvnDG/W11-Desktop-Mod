@@ -1,0 +1,178 @@
+
+* {
+    /* Font used with icons is NerdFonts JetBrainsMono */
+    font-family: 'Sagoe UI', 'Bars';
+    font-size: 12px;
+    color: #f2e5bc;
+}
+
+.bar {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 5px 5px;
+}
+
+.container-right .widget {
+  border-radius: 5px;
+}
+
+.container-right .widget * {
+  color: #ff0000;
+}
+
+.komorebi-workspaces {
+  margin-left: 0;
+  font-family: "Sagoe UI";
+}
+.ws-btn {
+    padding: 8px 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 0px solid rgba(0, 0, 0, 0.0);
+    margin: 2px 2px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: "Sagoe UI";
+    color: #ffffff;
+}
+
+.ws-btn:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.ws-btn.active {
+    background: rgba(0, 0, 0, 0.7);
+	padding: 8px 20px;
+	border: 0px solid rgba(95, 135, 185, 1)
+	
+}
+
+.ws-btn.populated {
+    color: #ffffff;
+	padding: 8px 10px;
+	background: rgba(0, 0, 0, 0.7);
+	border: 0px solid rgba(0, 0, 0, 0.0);
+}
+
+.custom-widget {
+    padding: 2px 6px;
+    font-size: 14px;
+    background: #bdae93;
+}
+.custom-widget .icon {
+  font-size: 13px;
+}
+.custom-widget:hover {
+  background: #fbf1c7;
+}
+.custom-widget .icon.icon-left {
+    margin-right: 5px;
+}
+.custom-widget .icon.icon-right {
+    margin-left: 5px;
+}
+.custom-widget.hostname-widget {
+    background: #83a598;
+}
+
+.custom-widget.terminal-widget {
+    font-size: 14px;
+}
+
+.cpu-widget .label,
+.wifi-widget .label,
+.memory-widget .label,
+.traffic-widget .label,
+.battery-widget .label {
+  color: #ffffff;
+  padding: 2px 5px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.traffic-widget {
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px solid rgba(0, 0, 0, 0.0);
+    margin: 2px 2px;
+    border-radius: 5px;
+}
+
+.traffic-widget .label {
+    color: #ffffff;
+}
+	
+.wifi-widget .label {
+  font-family: 'JetBrainsMono NF';
+  background: rgba(36, 51, 71, 0.3);
+}
+
+.cpu-widget .label {
+  background: #d3869b;
+}
+
+.battery-widget .label {
+  font-family: 'JetBrainsMono NF';
+  background: rgba(36, 51, 71, 0.3);
+}
+
+.battery-widget,
+.memory-widget {
+  margin: 0;
+}
+
+.memory-widget .label.status-low {
+  background: #689d6a;
+}
+.memory-widget .label.status-medium {
+  background: #fe8019;
+}
+.memory-widget .label.status-high {
+  background: #cc241d;
+}
+.active-window-widget {
+  margin-left: 0px;
+}
+.active-window-widget .label {
+  font-family: 'JetBrainsMono NF';
+  padding: -5px 7px 0 7px;
+  color: #242424;
+  background: #5e86bd;
+  margin-bottom: -1px;
+  border-radius: 3px;
+  margin: 2px;
+}
+
+.komorebi-active-layout {
+    padding: 0 0px 0px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px solid rgba(0, 0, 0, 0.0);
+    margin: 2px 2px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: "Sagoe UI";
+    color: #ffffff;
+}
+
+.komorebi-active-layout:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.komorebi-active-layout .label {
+  color: #ffffff;
+  margin: 0px 0px;
+  font-size: 12px;
+  border: 0px solid rgba(0, 0, 0, 0.0);
+  padding: 0 0px 0px 0px;
+  font-family: 'Sagoe UI';
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.komorebi-active-layout .label:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.clock-widget .label {
+  font-family: 'Sagoe UI';
+  color: #ffffff;
+  margin: 8px 0;
+}
