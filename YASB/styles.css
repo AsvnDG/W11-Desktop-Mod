@@ -179,3 +179,18 @@
   margin: 2px 2px;
   border-radius: 5px;
 }
+
+.media-widget {
+  background: rgba(36, 36, 36, 1);
+    border: 0px solid rgba(0, 0, 0, 0.0);
+    margin: 2px 2px;
+    border-radius: 5px;
+}
+
+.media-widget:hover {
+  background: rgba(36, 36, 36, 1);
+}
+
+.media-widget .label {
+  color: #ffffff;
+}
