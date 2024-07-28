@@ -96,7 +96,7 @@ bars:
     widgets:
       left:   ["komorebi_workspaces", "komorebi_active_layout"]
       center: []
-      right:  []
+      right:  ["media"]
       
   traffic-bar:
     enabled: true
@@ -398,6 +398,22 @@ widgets:
       max_length_ellipsis: "..."
       monitor_exclusive: true
 
+  media:
+    type: "yasb.custom.CustomWidget"
+    options:
+      label: " \udb80\udf87 Now Playing: {data[artist]} - {data[title]}"
+      label_alt: " \udb80\udf87 Now Playing: {data[artist]} - {data[title]}"
+      # label_alt: "\udb80\udf87 {data[artist]} - {data[title]} - {data[album]}"
+      class_name: "media-widget"
+      exec_options:
+        run_cmd: 'python.exe C:\Users\AsvinDG\yasb-main\src\media.py' # Paste the above code into a Python file and reference it here
+        run_interval: 50
+        return_format: "json"
+      callbacks:
+        on_left: "do_nothing"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+  
   battery:
         type: "yasb.battery.BatteryWidget"
         options:
@@ -412,8 +428,7 @@ widgets:
                 on_left: "toggle_label"
                 on_middle: "do_nothing"
                 on_right: "exec cmd.exe /c start ms-settings:batterysaver"
-
-
+  
   clock:
     type: "yasb.clock.ClockWidget"
     options:
