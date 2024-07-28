@@ -89,14 +89,41 @@ bars:
       width: "100%"
       height: 40
     padding:
-      top: 7
+      top: 2
       left: 6
-      bottom: 0
+      bottom: -10
       right: 7
     widgets:
-      left:   ["active_window", "komorebi_workspaces", "komorebi_active_layout"]
+      left:   ["komorebi_workspaces", "komorebi_active_layout"]
       center: []
-      right:  ["traffic"]
+      right:  []
+      
+  traffic-bar:
+    enabled: true
+    screens: ['*']
+    class_name: "yasb-bar"
+    alignment:
+      position: "bottom"
+      center: false
+    blur_effect:
+      enabled: false
+      acrylic: false
+      dark: false
+    window_flags:
+      always_on_top: false
+      windows_app_bar: false
+    dimensions:
+      width: "100%"
+      height: 52
+    padding:
+      top: -3
+      left: 5
+      bottom: 0
+      right: 0
+    widgets:
+      left:   ["traffic"]
+      center: []
+      right:  []
 
 # widgets:
   # my-clock-widget:
@@ -364,9 +391,10 @@ widgets:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
       label: "{win[title]}"
-      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+      label_alt: "{win[title]}"
+      #label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
       label_no_window: ""
-      max_length: 36
+      max_length: 500
       max_length_ellipsis: "..."
       monitor_exclusive: true
 
@@ -389,9 +417,13 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-        label: "{%H:%M}"
-        label_alt: "{%a %d/%m/%y %H:%M:%S %Z}"
-        timezones: ["Europe/London", "America/New_York"]
+        #label: "{%H:%M}"
+        label: "{ %a %d/%m/%y | %H:%M }"
+        label_alt: "{ %a %d/%m/%y | %H:%M }"
+        #label: "{ %a %d/%m/%y | %H:%M:%S %Z }"
+        #label_alt: "{ %a %d/%m/%y | %H:%M:%S %Z }"
+        #timezones: ["Europe/London", "America/New_York"]
+        timezones: ["Asia/Jakarta"]
         callbacks:
           on_middle: "exec explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
           on_right: "next_timezone"
@@ -444,6 +476,8 @@ widgets:
         vertical_stack: " Change Layout "
         horizontal_stack: " Change Layout "
         ultrawide_vertical_stack: " Change Layout "
+        grid: " Change Layout "
+        right_main_vertical_stack: " Change Layout "
         monocle: " Change Layout "
         maximised: " Change Layout "
         floating: " Change Layout "
