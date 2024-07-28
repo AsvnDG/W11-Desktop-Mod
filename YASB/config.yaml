@@ -401,8 +401,8 @@ widgets:
   media:
     type: "yasb.custom.CustomWidget"
     options:
-      label: " \udb80\udf87 Now Playing: {data[artist]} - {data[title]}"
-      label_alt: " \udb80\udf87 Now Playing: {data[artist]} - {data[title]}"
+      label: " \udb80\udf87  Now Playing: {data[artist]} - {data[title]}"
+      label_alt: " \udb80\udf87  Now Playing: {data[artist]} - {data[title]}"
       # label_alt: "\udb80\udf87 {data[artist]} - {data[title]} - {data[album]}"
       class_name: "media-widget"
       exec_options:
