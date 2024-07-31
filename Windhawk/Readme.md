@@ -1,4 +1,4 @@
-SplitBar theme for Windows 11 Taskbar Styler
+FloatBar theme for Windows 11 Taskbar Styler
 ![Image](https://github.com/AsvnDG/W11-Desktop-Mod/blob/Float_No_Transparency/Windhawk/Screenshot%202024-07-31%20190310.png)
 
 Notes
