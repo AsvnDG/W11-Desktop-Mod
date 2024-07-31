@@ -1,4 +1,5 @@
 FloatBar theme for Windows 11 Taskbar Styler
+[Image](https://github.com/AsvnDG/W11-Desktop-Mod/blob/Float_No_Transparency/Windhawk/Screenshot%202024-07-31%20190310.png)
 
 Notes
 1. "System tray icons" and "Other system tray icons" from Setting > Personalization > Taskbar > System tray icon will be hidden, even if toggled on, but "Other system tray icons" can still be accessed from tray menu (pressing chevron icon)
