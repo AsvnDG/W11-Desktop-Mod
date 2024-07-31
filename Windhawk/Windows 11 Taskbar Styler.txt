@@ -184,5 +184,7 @@
   "controlStyles[63].styles[1]": "Width=12",
   "controlStyles[63].styles[2]": "Margin=0,0,10,0",
   "controlStyles[64].target": "Taskbar.TaskListLabeledButtonPanel#IconPanel > Windows.UI.Xaml.Controls.Border#MultiWindowElement",
-  "controlStyles[64].styles[0]": "Visibility=1"
+  "controlStyles[64].styles[0]": "Visibility=1",
+  "controlStyles[65].target": "Microsoft.UI.Xaml.Controls.ProgressBar#ProgressIndicator",
+  "controlStyles[65].styles[0]": "Margin=7,0,0,4"
 }
