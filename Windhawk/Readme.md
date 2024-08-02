@@ -4,7 +4,7 @@ FloatBar theme for Windows 11 Taskbar Styler
 Notes
 1. "Other system tray icons" from Setting > Personalization > Taskbar > System tray icon will be hidden from taskbar, even if toggled on, but it can still be accessed from tray menu (pressing chevron icon)
 2. Transparency is not supported due to taskbar will show darker color between 2 icon since it is overlapped
-3. Need to install [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11) to be able to split pinned icon (max 3 splitter), the steps are as follow:
+3. Need to install [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11) to be able to split pinned icon (max 3 splitter), the steps are as follow: (see How to split pinned icon.mp4)
    - Install TaskSeparator11
    - Go to its folder (Documents\TaskSeparator11\Shortcuts)
    - Copy and duplicate Splitter.exe
