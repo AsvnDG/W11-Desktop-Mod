@@ -36,5 +36,9 @@
   "controlStyles[11].target": "ActionCenter.NotificationCenterPage > Windows.UI.Xaml.Controls.Grid#RootGrid",
   "controlStyles[11].styles[0]": "Margin=52,12,12,0",
   "controlStyles[12].target": "Windows.UI.Xaml.Controls.Grid#StandardHeroContainer",
-  "controlStyles[12].styles[0]": "Visibility=Collapsed"
+  "controlStyles[12].styles[0]": "Visibility=Collapsed",
+  "controlStyles[13].target": "Windows.UI.Xaml.Controls.CalendarViewDayItem",
+  "controlStyles[13].styles[0]": "CornerRadius=5",
+  "controlStyles[14].target": "Windows.UI.Xaml.Controls.CalendarViewDayItem > Windows.UI.Xaml.Controls.Border",
+  "controlStyles[14].styles[0]": "CornerRadius=5"
 }
