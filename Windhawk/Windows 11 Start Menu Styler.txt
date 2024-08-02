@@ -49,5 +49,8 @@
   "controlStyles[20].target": "Windows.UI.Xaml.Controls.Border#BorderElement",
   "controlStyles[20].styles[0]": "CornerRadius=5",
   "controlStyles[21].target": "Windows.UI.Xaml.Controls.Border#TaskbarSearchBackground",
-  "controlStyles[21].styles[0]": "CornerRadius=5"
+  "controlStyles[21].styles[0]": "CornerRadius=5",
+  "theme": "",
+  "resourceVariables[0].variableKey": "",
+  "resourceVariables[0].value": ""
 }
