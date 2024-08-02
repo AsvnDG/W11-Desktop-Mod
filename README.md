@@ -1,6 +1,7 @@
 You need to install:
 - [Windhawk](https://windhawk.net/) and its mod
 - [YASB](https://github.com/da-rth/yasb)
+- [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11)
 
 Preview
 
