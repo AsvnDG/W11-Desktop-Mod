@@ -1,3 +1,3 @@
 Preview
 
-![Screenshot 2024-07-28 233946](https://github.com/user-attachments/assets/facfd5a9-2159-48e0-8f79-c5b7c99a9665)
+![Preview](https://github.com/AsvnDG/W11-Desktop-Mod/blob/Float_No_Transparency/FloatBar.gif)
