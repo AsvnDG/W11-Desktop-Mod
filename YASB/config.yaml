@@ -407,7 +407,7 @@ widgets:
       class_name: "media-widget"
       exec_options:
         run_cmd: 'python.exe C:\Users\AsvinDG\yasb-main\src\media.py' # Paste the above code into a Python file and reference it here
-        run_interval: 50
+        run_interval: 5000
         return_format: "json"
       callbacks:
         on_left: "do_nothing"
