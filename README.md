@@ -1,5 +1,5 @@
 You need to install:
-- [Windhawk](https://windhawk.net/) and its mod go to its mod setting - advance, paste the code to its textbox and save
+- [Windhawk](https://windhawk.net/) and its mod then go to its mod detail - advanced tab, paste the code to its textbox and save
 - [YASB](https://github.com/da-rth/yasb)
 - [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11)
 
