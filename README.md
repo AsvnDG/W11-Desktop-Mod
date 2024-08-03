@@ -1,6 +1,6 @@
 You need to install:
 - [Windhawk](https://windhawk.net/) and its mod then go to its mod detail - advanced tab, paste the code to its textbox and save
-- [YASB](https://github.com/da-rth/yasb)
+- [YASB](https://github.com/da-rth/yasb) for top bar and internet speed monitor
 - [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11)
 
 Preview
