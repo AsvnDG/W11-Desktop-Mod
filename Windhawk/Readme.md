@@ -5,13 +5,15 @@ Notes
 1. "Other system tray icons" from Setting > Personalization > Taskbar > System tray icon will be hidden from taskbar, even if toggled on, but it can still be accessed from tray menu (pressing chevron icon)
 2. Transparency is not supported due to taskbar will show darker color between 2 icon since it is overlapped
 3. Taskbar label is also not supported, still looking for a workaround
-4. Need to install [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11) to be able to split pinned icon (max 3 splitter), the steps are as follow: (see How to split pinned icon.mp4)
+4. "Hide" or "Search icon only" that is supported when using search on taskbar
+5. "Widgets" only work when taskbar is set to left alignment
+6. Need to install [TaskSeparator11](https://github.com/DrummerSi/TaskSeparator11) to be able to split pinned icon (max 3 splitter), the steps are as follow: (see How to split pinned icon.mp4)
    - Install TaskSeparator11
    - Go to its folder (Documents\TaskSeparator11\Shortcuts)
    - Copy and duplicate Splitter.exe
    - Drag the copied exe to taskbar and position it to your liking
    - Some separator might not be updated, restarting explorer.exe is a must
-5. To reposition the splitter, it is easier to drag the other pinned icon instead of pinned splitter
+7. To reposition the splitter, it is easier to drag the other pinned icon instead of pinned splitter
 
 <details>
 
