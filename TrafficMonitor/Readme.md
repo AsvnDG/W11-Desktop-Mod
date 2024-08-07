@@ -4,4 +4,4 @@
 4. fork windhawk clock mod, go to line 12 and add this at the end -lruntimeobject
 5. go to line 638, change the g_settings.webContentsUpdateInterval * 60 to g_settings.webContentsUpdateInterval * 1
 6. compile the mod
-7. then use the forked mod (that enable per second update), put http://localhost:8000/config.xml to its web content and set everything necessary
+7. then use the forked mod (that you just compile), put http://localhost:8000/config.xml to its web content and set everything necessary
