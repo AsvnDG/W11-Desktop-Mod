@@ -6,3 +6,4 @@
 6. compile the mod
 7. then use the forked mod (that you just compile), put http://localhost:8000/config.xml to its web content and set everything necessary
 8. and/or copy and paste the content of Taskbar Clock Customization.txt into mod advanced tab
+9. Save
