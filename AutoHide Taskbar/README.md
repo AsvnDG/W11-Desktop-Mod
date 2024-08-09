@@ -1,4 +1,4 @@
-you need to install python and pygetwindow
+you need to install python and install module pygetwindow and pywin32
 
 I use python 3.11.9 and add it to PATH
 
