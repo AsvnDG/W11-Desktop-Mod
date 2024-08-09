@@ -1,3 +1,5 @@
+The script will refresh every 2 second (meaning wasting a lot of cpu, If you’re using a laptop your battery should drain quite fast)
+
 you need to install python and install module pygetwindow and pywin32
 
 I use python 3.11.9 and add it to PATH
