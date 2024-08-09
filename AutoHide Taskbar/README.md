@@ -10,4 +10,6 @@ Taskbar Toggle are from gfody ToggleTaskbar [github](https://github.com/gfody/To
 
 I just ask chatgpt to make me a script to enable auto hide taskbar when a window is maximize
 
+download the exe and pyw put it to the same folder, double click the pyw
+
 if something bad happen just open taskmanager, search for python and end task the process
